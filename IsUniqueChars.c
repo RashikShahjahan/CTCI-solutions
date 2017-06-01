@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
-bool main() {
-   char str[] = "bab";
+int main() {
+   bool isUniqChar("bba");
+}
+
+bool isUniqChar(const char* str){
    int checker = 0;
    int i;
    int length = strlen(str);
@@ -15,3 +18,4 @@ bool main() {
    }
    return true;
 }
+
