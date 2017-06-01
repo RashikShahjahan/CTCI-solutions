@@ -1,4 +1,4 @@
-
+/*Checks to see if each characters in a string is unique*/
     bool isUniqChar(const char *str){
        int checker = 0;
        int i;
